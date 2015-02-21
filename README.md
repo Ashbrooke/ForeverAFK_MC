@@ -12,3 +12,9 @@
 ----
 ## Versions
 * 0.1 - No functionality
+
+----
+## Links
+* [Spigot API documentation](https://hub.spigotmc.org/javadocs/spigot/)
+* [SpigotMC Developer Hub](https://hub.spigotmc.org/)
+* [BukkitWiki](http://wiki.bukkit.org/Main_Page)

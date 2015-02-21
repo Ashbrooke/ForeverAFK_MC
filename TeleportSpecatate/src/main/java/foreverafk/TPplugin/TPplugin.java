@@ -2,6 +2,8 @@ package foreverafk.TPplugin;
 
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 
@@ -18,9 +20,23 @@ public class TPplugin extends JavaPlugin{
 	
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World!");
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
+	
+		if(cmd.getName().equalsIgnoreCase("mtp")){
+			return true;
+		}
+		
+		if(!(sender instanceof Player)){
+			sender.sendMessage("How the hell do you teleport console?");
+		} else {
+			//tp
+		}
+		
+		return false;
+		
 	}
+	
+	
 
 }

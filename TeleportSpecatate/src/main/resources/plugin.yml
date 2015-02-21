@@ -1,3 +1,10 @@
 name: TeleportSpectate
 main: foreverafk.TPplugin.TPplugin
 version: 0.1
+
+commands:
+    mtp:
+        description: Teleportation for mods to creep on players.
+        usage: /mtp [player]
+        permission: forverafk.mtp
+        permission-message: You don't have permissions.
