@@ -11,7 +11,12 @@
 
 ----
 ## Versions
-* 0.1 - No functionality
+* 0.1 - No functionality  
+
+----
+## Future Features
+* Mod TP - TP to players and be set into gamemode 3
+* Bedtime timer - Once 1/2 of the people in one world go to bed it will become daytime  
 
 ----
 ## Links
