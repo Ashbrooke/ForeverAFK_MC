@@ -17,6 +17,7 @@
 ## Future Features
 * Mod TP - TP to players and be set into gamemode 3
 * Bedtime timer - Once 1/2 of the people in one world go to bed it will become daytime  
+* /warn <player> [reason] give formal written and logged warnings
 
 ----
 ## Links
